@@ -16,7 +16,11 @@ A shareable Claude Code skill that turns Claude into a personalized lawn care ad
 
 ## How to install
 
-1. Copy `lawn.md` to `~/.claude/skills/lawn.md`
+1. Create the skill directory and copy the skill file:
+   ```
+   mkdir -p ~/.claude/skills/lawn
+   cp lawn.md ~/.claude/skills/lawn/SKILL.md
+   ```
 2. Create the data directory: `mkdir -p ~/Claude/Lawn`
 3. Start a Claude Code session and say `/lawn` — it will walk you through setup
 
